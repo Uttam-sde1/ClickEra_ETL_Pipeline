@@ -9,7 +9,7 @@ Tasks Performed by the pipeline:
 - **Orchestration** is performed by Airflow 
 
 # Datasource
-The Datasource used in the project is taken from **Zerve. Ai website [link](https://uc.hackerearth.com/he-public-ap-south-1/zerve_hackathon_for_reviewc8fa7c7.csv)**, where the Dataset was made public for the analysis purpose and also used as a resource in Hackearth Hackathon.
+The Datasource used in the project is taken from **Zerve. Ai website [link](https://uc.hackerearth.com/he-public-ap-south-1/zerve_hackathon_for_reviewc8fa7c7.csv)**
 
 It contains:
 - **409k Posthog events (ClickStream Data)** performed by the users and **107 Columns** to map the specific details.
