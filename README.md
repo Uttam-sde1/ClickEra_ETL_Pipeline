@@ -1,5 +1,5 @@
-# ProductNerve
-**ProductNerve** is a Data Engineering pipeline that _extracts, transforms and loads_ the Clickstream Data from the official data set made available by **Zerve. Ai.** This pipeline uses **Python, SQL, Apache Spark (PySpark), Apache Airflow, Amazon S3 (Data Lake), Docker Snowflake, Tableau.**
+# ClickEra
+**ClickEra** is a Data Engineering pipeline that _extracts, transforms and loads_ the Clickstream Data from the official data set made available by **Zerve. Ai.** This pipeline uses **Python, SQL, Apache Spark (PySpark), Apache Airflow, Amazon S3 (Data Lake), Docker Snowflake, Tableau.**
 
 Tasks Performed by the pipeline:
 - It loads the raw data from **Local Machine** to **AWS S3** using the Python Script. **[Bronze Layer]**
@@ -52,22 +52,4 @@ Post understanding the Data the aim is to
 - Trigger the DAG, will be able to see the 3 Tasks Running
 - If you ever get stuck and DAG Fails, always open the details and go to the details of the Task, would be able to find the discrepancies.
 **Understand the Process behind each Script**, if you follow up till here you will have a successful pipeline running, if not a **great Debugging Session** which will make you a better Data Engineer. **Happy Coding!!!**
-
-
-# Improvements
-- Implementation of **error handling/ retry logic.**
-- Better **Monitoring (Email Triggers)** can be implemented
-- **Cluster mode** in Pyspark for large amounts of Data.
-- **Visualisation** using Tableau
-
-
-# Conclusion:
-- This project gave us the understanding of the pipeline, if this has sparked the curiosity in you about Data Engineering, you can connect with me.
-Linkedin : [Vishwajeet Rupnar](https://www.linkedin.com/in/vishwajeetrupnar)
-- I would Love to hear back from each one worked on this project, if any addition required for better understanding, do let me know. _Happy Placements!!_
-
-![you are more than you think!](images/Happiness.png)
-
-
-
 
